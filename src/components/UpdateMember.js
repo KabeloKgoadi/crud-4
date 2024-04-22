@@ -30,14 +30,14 @@ function UpdateMember() {
 
         localStorage.setItem(id, 
             JSON.stringify({name: name, title: title, file: image}))
-        navigate('/');
+        navigate('/home');
     }
 
     
   return (
     <div>
         <div>
-            <a href="/" className="home-link">
+            <a href="/home" className="home-link">
               <img src={imageSrc} alt="Home" />
             </a>
           </div>
