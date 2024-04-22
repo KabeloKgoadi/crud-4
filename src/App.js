@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
      < Routes>
-      <Route path = '/' element = {<Homepage/>}/>
+      <Route path = '/crud-4' element = {<Homepage/>}/>
       <Route path = '/create' element = {<AddMembers/>}/>
       <Route path = '/update/:id' element = {<UpdateMember/>}/>
      </Routes>
